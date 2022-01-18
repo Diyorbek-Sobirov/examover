@@ -1,0 +1,19 @@
+.pokemon_img{
+    width: 150px;
+}
+
+
+.pokemonBody{
+    height:100px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+.pokemonBody::-webkit-scrollbar{
+    width: 10px;
+    background: rgb(255, 255, 255);
+    border-radius: 15px;
+}
+.pokemonBody::-webkit-scrollbar-thumb{
+    border-radius: 15px;
+    background: rgb(26, 104, 2);
+}
